@@ -1,0 +1,166 @@
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron{
+    background-image: url(img/bckg12.jpeg);
+    height: 540px;
+    text-align: center;
+    position: relative;
+}
+
+.workingspace{
+    margin-top: 30px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.workingspace h3 {
+    font-size: 55px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: lightslategray;
+    font-weight: 200;
+    margin: 25px 0;
+}
+
+.testinmonial h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+    padding-bottom: 20;
+    margin-top: 100px;
+}
+
+.testinmonial figure img {
+    width: 70px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+}
+
+.testinmonial figure img.utama{
+    width: 100px;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.testinmonial figure h5 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+
+.testinmonial figure p {
+    font-size: 12px;
+    color: blue;
+    margin-top: -5px !important;
+    
+}
+
+.testinmonial figcaption {
+    text-align: center;
+}
+.footer {
+    margin-top: 100px;
+}
+
+.footer p {
+    color: #0B63DC;
+    font-size: 18px;
+}
+
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.jumbotron .display-4{
+    color: lightgreen;  
+    margin-top: 125px;
+    font-weight: 200;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span{
+    font-weight: 600;
+}
+
+.info-panel{
+    box-shadow: 0px 5x 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: lightcyan;
+    padding: 30px;
+}
+
+.info-panel img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color: lightslategrey;
+    margin-top: -5px;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    } 
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        margin-top: -75px;
+        height: 650px;
+    }
+    .jumbotron .display-4{
+        font-size: 62px;
+    }
+
+    .workingspace {
+        text-align: left;
+    }
+
+    .testinmonial {
+        margin-top: 150px;
+    }
+    .testinmonial {
+        margin-top: 200;
+    }
+
+ }
